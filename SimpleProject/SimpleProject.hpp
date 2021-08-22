@@ -16,6 +16,7 @@ struct CommandError: std::logic_error
 class SimpleProject
 {
 public:
+	//constructor
     SimpleProject(Scheduler& scheduler, const std::string& command);
     SimpleProject(const SimpleProject& ) = delete;
     SimpleProject& operator=(const SimpleProject&) = delete;
